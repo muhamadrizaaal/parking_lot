@@ -1,0 +1,4 @@
+#!/bin/bash
+go mod init parking_lot
+go mod tidy
+go test ./...
